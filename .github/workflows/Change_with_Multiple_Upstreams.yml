@@ -60,7 +60,7 @@ jobs:
               }
             }'
             
-    # uncomment below lines of code to create change request using deployment gates, indent code if necessary
-            deployment-gate: '{"environment":"PROD", "jobId":"deploy", "jobName":"Deploy"}'
+        # uncomment below lines of code to create change request using deployment gates, indent code if necessary
+       #     deployment-gate: '{"environment":"PROD", "jobId":"deploy", "jobName":"Deploy"}'
 
       
