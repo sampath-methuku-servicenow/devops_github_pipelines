@@ -10,7 +10,7 @@ jobs:
     
     steps:
       - name: Checkout Code
-      - run: echo Run Build
+      - run: echo "Run Build"
       
   test:
     name: Test
@@ -18,7 +18,7 @@ jobs:
 
     steps:
       - name: Checkout Code
-      - run: echo Run Test
+      - run: echo "Run Test"
       
 
   deploy:
@@ -27,7 +27,7 @@ jobs:
     needs: [build, test] # This job depends on 'build' and 'test' jobs
     steps:
       - name: Checkout Code
-      - run: echo Run Deploy
+      - run: echo "Run Deploy"
      
       
       - name: Change Step
